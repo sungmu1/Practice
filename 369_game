@@ -27,7 +27,7 @@ int main(int argc, char** argv)
         else
         {
             cout<< "Error";
-        	cout << "Error number = %d ", i ;
+        	cout << "Error number = " << i << endl ;
         }
         cout<< " "; // 숫자간 띄어쓰기
     }

@@ -6,7 +6,7 @@ int verification(int n); //3의 배수 갯수를 세어줌
 
 int main(int argc, char** argv)
 {
-	int number;//경우의 수
+    int number;//경우의 수
     int amount; // 3의 배수의 갯수
     
     cin>>number;

@@ -22,9 +22,8 @@ int main(int argc, char** argv)
 
 int pascal_triangle(int size)
 {
-    int active[10] ;
-    //int *active = malloc(sizeof(int)*size);
-    int save[10];
+    int *active = (int*)malloc(sizeof(int)*10);
+    int *save = (int*)malloc(sizeof(int)*10);
     int tmp=0;
     for(int i=0 ; i<size ; i++)
     {

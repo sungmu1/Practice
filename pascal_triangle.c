@@ -53,4 +53,6 @@ int pascal_triangle(int size)
             	save[k] = active[k];
             }
     }
+	free(active);
+	free(save);
 }
